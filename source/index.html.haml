@@ -1,0 +1,12 @@
+---
+title: Welcome to Middleman
+---
+
+-content = data.remove_middleman_init_content
+
+.welcome
+  .logo
+    = image_tag content.image
+  %h1= content.heading
+  %p.doc
+    = link_to content.link.text, content.link.url, target: '_blank'

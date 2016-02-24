@@ -1,0 +1,40 @@
+// Globals
+// --------------------------------------------------
+
+// $global-height: ;
+// $global-content-area-width: ;
+
+// Color palette -- All colors variables should start with $color-
+// --------------------------------------------------
+
+$color-black: #000;
+$color-white: #fff;
+
+// Fonts
+// --------------------------------------------------
+
+$font-size-base: 16px;
+$font-family-base: 'proxima-nova', Helvetica, Arial, sans-serif; // Use mixins for Proxima Font Weights (_mixins.sass)
+
+// Breakpoints
+// 375px, 414px, 480px, 568px, 627px, 736px, 768px, 1024px, 1025px, 1460px
+// --------------------------------------------------
+
+$one-em: .063em;                                 // = 1px
+
+$phone-larger-landscape: 35.5em - $one-em;       // = 568px - 1px
+$phone-landscape: 30em - $one-em;                // = 480px - 1px
+
+$phone-large-landscape: 41.688em - $one-em;      // = 667px - 1px
+$phone-large: 23.438em - $one-em;                // = 375px - 1px
+
+$phone-plus-landscape: 46em - $one-em;           // = 736px - 1px
+$phone-plus: 25.875em - $one-em;                 // = 414px - 1px
+
+$tablet-landscape: 64em;                         // = 1024px - 1px
+$tablet: 48em - $one-em;                         // = 768px - 1px
+
+$desktop-large: 91.25em - $one-em;               // = 1460px - 1px
+$desktop: $tablet-landscape + ($one-em * 2);     // = 1024px + 1px
+
+$desktop-menu: $tablet-landscape - $one-em;

@@ -1,0 +1,13 @@
+# ---------------------------------
+# Remove
+# ---------------------------------
+
+image: 'middleman-logo.svg'
+heading: 'Middleman is Running'
+link:
+  text: 'Read Documentation Online'
+  url: 'https://middlemanapp.com'
+
+# ---------------------------------
+# Remove
+# ---------------------------------
