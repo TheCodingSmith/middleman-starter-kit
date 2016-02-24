@@ -1,0 +1,7 @@
+linters:
+
+  LineLength:
+    max: 150
+
+  SpaceBeforeScript:
+    enabled: false
